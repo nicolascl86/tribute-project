@@ -1,0 +1,57 @@
+/* Define the custom font */
+@font-face {
+  font-family: 'Pompiere';
+  src: url('nicolask/Library/Fonts/Pompiere-Regular.ttf');
+}
+
+/* Global styles for the body */
+body {
+  background-color: #C0B5AB;
+  color: #000; /* Sets the font color to black */
+  font-family: 'Pompiere', sans-serif; /* Applies the custom font globally */
+  font-size: 16px; /* Sets a base font size */
+  text-align: justify; /* Applies text alignment globally */
+}
+
+/* Specific styles for headings */
+h1 {
+  font-size: 48px; /* Example size for h1 */
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-family: Georgia, serif; /* Overrides the global font */
+  font-size: 38px;
+}
+
+/* Paragraph styles */
+p {
+  font-family: Georgia, serif; /* Overrides the global font */
+  font-size: 22px;
+}
+
+/* Figure styles */
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+/* Image styles */
+img {
+  width: 100px; /* Fixes the .fit-picture issue */
+}
