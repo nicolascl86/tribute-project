@@ -5,3 +5,6 @@ button.addEventListener('click', () => {
     message.style.display = 'block';
     button.style.display = 'none';
 });
+
+const now = new Date();
+document.getElementById('date-time').textContent = now.toLocaleString();
